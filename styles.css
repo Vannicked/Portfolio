@@ -8,7 +8,7 @@ body {
   
   header {
     background: #999966;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255); /* Color of words inside header (My name) */
     padding: 1rem;
     text-align: center;
   }
@@ -50,4 +50,20 @@ body {
     padding: 1rem 0;
     position: relative;
   }
+  .resume-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-button:hover {
+    background-color: #0056b3;
+  }
+  
   
