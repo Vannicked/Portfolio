@@ -63,7 +63,7 @@ body {
   }
   
   .resume-button:hover {
-    background-color: #0056b3;
+    background-color: #7b7b51;
     transform: scale(1.05); /* Slightly grow the button */
   }
   
