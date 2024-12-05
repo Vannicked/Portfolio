@@ -56,14 +56,16 @@ body {
     padding: 10px 20px;
     background-color: #007BFF;
     color: white;
-    text-decoration: none;
+    text-decoration: none; /* Remove underline */
     border-radius: 5px;
     font-size: 16px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add transition for smooth hover effect */
   }
   
   .resume-button:hover {
     background-color: #0056b3;
+    transform: scale(1.05); /* Slightly grow the button */
   }
+  
   
   
